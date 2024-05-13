@@ -1,0 +1,224 @@
+{
+    "items":[
+        {
+            "id":"16",
+            "category":"Rice Items",
+            "name":"Veg Biryani",
+            "price":120,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/biryani-recipe-1-500x500.jpg"
+        },
+        {
+            "id":"17",
+            "category":"Rice Items",
+            "name":"curd rice",
+            "price":80,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2016/07/curd-rice-5-500x500.jpg"
+        },
+        {
+            "id":"18",
+            "category":"Rice Items",
+            "name":"Tomato Rice",
+            "price":100,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2015/06/tomato-rice-recipe-500x500.jpg"
+        },
+        {
+            "id":"19",
+            "category":"Rice Items",
+            "name":"Lemon Rice",
+            "price":50,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/lemon-rice-recipe-1-500x500.jpg"
+        },
+        {
+            "id":"20",
+            "category":"Rice Items",
+            "name":"Palak Biryani",
+            "price":149,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2013/05/palak-biryani3-500x500.jpg"
+        },
+        {
+            "id":"21",
+            "category":"Rice Items",
+            "name":"Schezwan Rice",
+            "price":120,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/schezwan-fried-rice-500x500.jpg"
+        },
+        {
+            "id":"22",
+            "category":"Rice Items",
+            "name":"Carrot RIce",
+            "price":99,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2015/05/carrot-rice-recipe-500x500.jpg"
+        },
+        {
+            "id":"23",
+            "category":"Rice Items",
+            "name":"Veg Pongal Recipe",
+            "price":200,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2016/04/ven-pongal-recipe-500x500.jpg"
+        },
+        {
+            "id":"24",
+            "category":"Rice Items",
+            "name":"Paneer Fried Rice",
+            "price":140,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2015/09/paneer-fried-rice-recipe-500x500.jpg"
+        },
+        {
+            "id":"25",
+            "category":"Rice Items",
+            "name":"Mushroom Pulao",
+            "price":130,
+            "url":"https://www.vegrecipesofindia.com/wp-content/uploads/2010/09/mushroom-pulao1-500x500.jpg"
+        },
+        {
+            "id":"1",
+            "category":"Pizza",
+            "name":"The Neapolitan Pizza",
+            "price":200,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Neapolitan-Pizza-960x960.jpg.webp"
+        },
+        {
+            "id":"2",
+            "category":"Pizza",
+            "name":"Margherita",
+            "price":149,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Pizza-Margherita-960x960.jpg.webp"
+        },
+        {
+            "id":"3",
+            "category":"Pizza",
+            "name":"Marinara",
+            "price":99,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Marinara-Pizza-960x960.jpg.webp"
+        },
+        {
+            "id":"4",
+            "category":"Pizza",
+            "name":"The Sicilian Pizza",
+            "price":200,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Sicilian-Pizza-960x720.jpg.webp"
+        },
+        {
+            "id":"5",
+            "category":"Pizza",
+            "name":"Roman style Pizza",
+            "price":300,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Roman-Style-Pizza-960x959.jpg.webp"
+        },
+        {
+            "id":"6",
+            "category":"Pizza",
+            "name":"The New York style Pizza",
+            "price":200,
+            "url":"https://www.chefspencil.com/wp-content/uploads/New-York-Style-Pizza-960x960.jpg.webp"
+        },
+        {
+            "id":"7",
+            "category":"Pizza",
+            "name":"The California Pizza",
+            "price":249,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Californian-Pizza.jpg.webp"
+        },
+        {
+            "id":"8",
+            "category":"Pizza",
+            "name":"The Detroit Pizza",
+            "price":200,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Detroit-Pizza-960x960.jpg.webp"
+        },
+        {
+            "id":"9",
+            "category":"Pizza",
+            "name":"The Mexican Pizza",
+            "price":200,
+            "url":"https://www.chefspencil.com/wp-content/uploads/Mexican-Pizza-960x960.jpg.webp"
+        },
+        {
+            "id":"10",
+            "category":"Cool Drinks",
+            "name":"Diet Coke -Can",
+            "price":80,
+            "url":"https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2020-10-17/Coca_Cola_Soft_Drink_-_Diet_Coke_Can__300_Ml.jpg"
+        },
+        {
+            "id":"11",
+            "category":"Cool Drinks",
+            "name":"Fanta Orange",
+            "price":80,
+            "url":"https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2020-10-17/Fanta_Soft_Drink_-_Fanta_Orange_Flavoured_can_300ml.jpg"
+        },
+        {
+            "id":"12",
+            "category":"Cool Drinks",
+            "name":"Mirinda",
+            "price":80,
+            "url":"https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2020-10-17/Mirinda__Soft_Drink_-_Mirinda_With_Added_Orange_Flavour_Can_250_Ml.jpg"
+        },
+        {
+            "id":"13",
+            "category":"Cool Drinks",
+            "name":"Pepsi",
+            "price":80,
+            "url":"https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2020-10-17/Pepsi_Soft_Drink_-_Pepsi_Can_300_Ml.jpg"
+        },
+        {
+            "id":"14",
+            "category":"Cool Drinks",
+            "name":"Sprite",
+            "price":80,
+            "url":"https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2020-10-17/Sprite_Soft_Drink_can_300ml.jpg"
+        },
+        {
+            "id":"15",
+            "category":"Cool Drinks",
+            "name":"Thums Up",
+            "price":80,
+            "url":"https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2020-10-17/Thumbs_up_can_300ml.jpg"
+        },
+        
+        {
+            "id":"26",
+            "category":"Hot Drinks",
+            "name":"Fresh Ginger Tea",
+            "price":30,
+            "url":"https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/winter-2017-18/nutrition/hot-drinks/healthy_hot_drinks_ginger_620x400_exp1120.jpg?h=400&w=620&rev=7caa1b89f9d944f69ec63892c98a64c6&hash=F9181E780A087579CD3AF330494538B1"
+        },
+        {
+            "id":"27",
+            "category":"Hot Drinks",
+            "name":"Fruit Tea",
+            "price":30,
+            "url":"https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/winter-2017-18/nutrition/hot-drinks/healthy_hot_drinks_fruittea_620x400_exp1120.jpg?rev=463659b94fa64026b7cf37e03d78d8ad&hash=A7964E129EB00A4830D48479393924DD"
+        },
+        {
+            "id":"28",
+            "category":"Hot Drinks",
+            "name":"Fresh Mint Tea",
+            "price":30,
+            "url":"https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/winter-2017-18/nutrition/hot-drinks/healthy_hot_drinks_freshmint_exp1120.jpg?rev=9c615314648a4984ac016e3283a14d0d&hash=7AD3647E61684A5ADA8C5857A98B2F00"
+        },
+        {
+            "id":"29",
+            "category":"Hot Drinks",
+            "name":"Hot Chocolate",
+            "price":30,
+            "url":"https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/winter-2017-18/nutrition/hot-drinks/healthy_hot_drinks_hotchocolate_620x400_exp1120.jpg?rev=9fb88e8ee60447c986234b8c1af80c47&hash=75AC2FEACA96983DBD31E60E044A7D92"
+        },
+        {
+            "id":"30",
+            "category":"Hot Drinks",
+            "name":"Coffee",
+            "price":30,
+            "url":"https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/winter-2017-18/nutrition/hot-drinks/healthy_hot_drinks_coffee_620x400_exp1120.jpg?rev=2bf0be0e3ee54e19afe6085223608271&hash=B461F5D3FCA1C9EBF34488151C471117"
+        },
+        {
+            "id":"31",
+            "category":"Hot Drinks",
+            "name":"Green Tea",
+            "price":30,
+            "url":"https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/winter-2017-18/nutrition/hot-drinks/healthy_hot_drinks_greentea_620x400_exp1120.jpg?rev=04227c6d11e94f1eb87cdb2f792eaaf0&hash=9D6CF70022232AF0335E550E9D09009A"
+        }
+
+
+    ]
+}
