@@ -9,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const customer=useSelector((state)=>state.customer)
   const navigate=useNavigate();
-  console.log(customer)
   useEffect(()=>{
     
       if (customer.name ==="" && customer.mobile===""){

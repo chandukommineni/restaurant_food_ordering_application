@@ -20,13 +20,17 @@ const orderSlice=createSlice({
                      
             // return state.filter((item)=>item.id!==action.payload)
                      
-            }
+            },
+        removeAll:(state,action)=>{
+            state=[]
+            return state
+        }
 
     }
 
 
 })
 
-export const {add,remove}=orderSlice.actions;
+export const {add,remove,removeAll}=orderSlice.actions;
 
 export default orderSlice.reducer;

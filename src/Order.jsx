@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { remove } from "./store/orderSlice";
-
+import { remove, removeAll } from "./store/orderSlice";
+import axios from "axios";
 
 const Order = () => {
  
@@ -12,16 +12,27 @@ const Order = () => {
 const removeOrder=(item)=>{
   dispatch(remove(item))
 
-}
-const finishOrdering=()=>{
-  console.log("finishing items")
+};
+const finishOrdering=async()=>{
+  if (data.lenght>0){
+    await axios.post("https://restaurant-food-ordering-apllication-backend.vercel.app/orders",data)
+  .then((response)=>console.log("ordered"))
+  .catch((err)=>console.log(err)) 
 
-}
+  dispatch(removeAll())
+
+  }
+  else{
+    console.log("no orders")
+  }
+  
+
+};
   return (
     <div>
        <center>
         <div className="my-3" onClick={finishOrdering}>
-          <button className="btn btn-primary">Finish Order</button>
+          <button className="btn btn-primary">Finish Ordering</button>
         </div>
 
       {
@@ -44,9 +55,9 @@ const finishOrdering=()=>{
                         <div className="card-text">Rs. {item.price}</div>
                        
                         <div style={{minHeight:"40%"}}>
-                         <h6 class="card-subtitle my-2  text-muted">Table No . {item.table}</h6>
-                         <h6 class="card-subtitle my-1  text-muted">Ordered by : {item.customername}</h6>
-                         <h6 class="card-subtitle my-1  text-muted">Mobile No : {item.customermobile}</h6>
+                         <h6 className="card-subtitle my-2  text-muted">Table No . {item.table}</h6>
+                         <h6 className="card-subtitle my-1  text-muted">Ordered by : {item.customername}</h6>
+                         <h6 className="card-subtitle my-1  text-muted">Mobile No : {item.customermobile}</h6>
 
                         </div>
                          

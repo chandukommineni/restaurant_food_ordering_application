@@ -157,7 +157,7 @@ const Card = () => {
                   style={{
                     color: "#373737",
                     background: "#eaf8f3",
-                    fontSize: "20px",
+                    fontSize: "15px",
                     fontWeight: 600,
                     textTransform: "capitalize",
                     padding: "14px 32px 13px",
