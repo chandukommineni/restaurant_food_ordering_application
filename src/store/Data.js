@@ -2,8 +2,11 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 
 export const fetchData=createAsyncThunk("fetchData",async ()=>{
-   const Data= await fetch("http://localhost:3031/items")
-   return Data.json();
+   const Data= await fetch("https://chandukommineni.github.io/json_data/fooddata.json")
+   .then((response)=>response.json())
+   .then((response)=>response)
+   console.log(Data.items)
+   return Data.items;
 })
 const Data=createSlice({
     name:"data",
