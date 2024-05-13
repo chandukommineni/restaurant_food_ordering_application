@@ -13,12 +13,18 @@ const removeOrder=(item)=>{
   dispatch(remove(item))
 
 }
+const finishOrdering=()=>{
+  console.log("finishing items")
+
+}
   return (
     <div>
        <center>
+        <div className="my-3" onClick={finishOrdering}>
+          <button className="btn btn-primary">Finish Order</button>
+        </div>
 
       {
-        
         data.length >0? 
         <div className="container">
           <div className="row">
@@ -36,11 +42,7 @@ const removeOrder=(item)=>{
                     <div className="card-body">
                         <h5 className="card-title">{item.name}</h5>
                         <div className="card-text">Rs. {item.price}</div>
-                        {/* <div className="card-text">Table No . {item.table}</div>
-                        <div className="card-text">
-                          <p > Order by :{item.customername}</p>
-                          <p >Mobile : {item.customermobile}</p>
-                        </div> */}
+                       
                         <div style={{minHeight:"40%"}}>
                          <h6 class="card-subtitle my-2  text-muted">Table No . {item.table}</h6>
                          <h6 class="card-subtitle my-1  text-muted">Ordered by : {item.customername}</h6>

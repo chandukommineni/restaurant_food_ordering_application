@@ -1,90 +1,4 @@
 
-// import React from "react";
-// import { useDispatch, useSelector } from "react-redux";
-// import { add } from "../store/orderSlice";
-// import { fetchData } from "../store/Data";
-
-// const Card = () => {
-//   const dispatch = useDispatch();
-//   const tableNumber = useSelector((state) => state.tableNumber);
-//   const data = useSelector((state) => state.data);
-//   const customer = useSelector((state) => state.customer);
-
-
-//   const addOrder = (item) => {
-//     if (tableNumber) {
-//       dispatch(add(item));
-     
-//     } else {
-//       alert("Select table number to order");
-//     }
-//   };
-
-//   React.useEffect(() => {
-//     dispatch(fetchData());
-//   }, [dispatch]);
-
-//   return (
-    
-//       <center>
-//         {!data.loading ? (
-//           <div className="container">
-//             <div className="row">
-//               {data.filteredData.map((item) => {
-//                 return (
-//                   <div className="col-md-4 my-4" key={item.id}>
-//                     <div
-//                       className="card text-center"
-//                       style={{
-//                         width: "18rem",
-//                         padding: "3px",
-//                         height: "18rem",
-//                       }}
-//                     >
-//                       <img
-//                         src={item.url}
-//                         alt="img"
-//                         className="card-img-top rounded"
-//                         style={{
-//                           width: "70%",
-//                           height: "60%",
-//                           display: "block",
-//                           margin: "auto",
-//                         }}
-//                       />
-//                       <div className="card-body">
-//                         <h5 className="card-title">{item.name}</h5>
-//                         <div className="card-text">Rs. {item.price}</div>
-//                         <button
-//                           className="btn btn-primary"
-//                           onClick={() =>
-//                             addOrder({
-//                               ...item,
-//                               table: tableNumber,
-//                               customername: customer.name,
-//                               customermobile: customer.mobile,
-//                             })
-//                           }
-//                         >
-//                           Order
-//                         </button>
-//                       </div>
-//                     </div>
-//                   </div>
-//                 );
-//               })}
-//             </div>
-//           </div>
-//         ) : (
-//           <div className="spinner-border text-primary"></div>
-//         )}
-//       </center>
-
-
-//   );
-// };
-
-// export default Card;
 
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -187,7 +101,7 @@ const Card = () => {
           aria-labelledby="myModalLabel"
           style={{ display: "block" }}
         >
-          <div className="modal-dialog" role="document">
+          <div className="modal-dialog" role="document" style={{ maxWidth: "350px" }}>
             <div
               className="modal-content"
               style={{
@@ -206,10 +120,10 @@ const Card = () => {
                   style={{
                     color: "#fff",
                     background: "#3a4943",
-                    fontSize: "100px",
-                    lineHeight: "120px",
-                    width: "115px",
-                    height: "115px",
+                    fontSize: "60px",
+                    lineHeight: "80px",
+                    width: "80px",
+                    height: "80px",
                     margin: "0 auto 10px",
                     borderRadius: "50%",
                   }}

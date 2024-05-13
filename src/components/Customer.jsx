@@ -19,22 +19,23 @@ const Customer = () => {
      <div className="my-4 text-white">
       <h2 >Welocome to our Restaurant</h2>
      </div>
-      <div className="card p-4" style={{ width: "30%" }}>
-        <form onSubmit={submit}>
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">Customer</label>
-            <input type="text" name="customername" id="name" placeholder="Enter name" className="form-control" required />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="mobile" className="form-label">Mobile No. </label>
-            <input type="text" name="mobile" id="mobile" placeholder="Enter mobile" className="form-control" required />
-          </div>
-          <div className="text-center">
-            <button className="btn btn-primary" type="submit">Continue</button>
-          </div>
-        </form>
-       
-      </div>
+     <div className="card p-4" style={{ width: "90%", maxWidth: "400px", margin: "0 auto" }}>
+  <form onSubmit={submit}>
+    <div className="mb-3">
+      <label htmlFor="name" className="form-label">Customer</label>
+      <input type="text" name="customername" id="name" placeholder="Enter name" className="form-control" required />
+    </div>
+    <div className="mb-3">
+      <label htmlFor="mobile" className="form-label">Mobile No. </label>
+      <input type="text" name="mobile" id="mobile" placeholder="Enter mobile" className="form-control" required />
+    </div>
+    <div className="text-center">
+      <button className="btn btn-primary" type="submit">Continue</button>
+    </div>
+  </form>
+</div>
+
+
  
 
     </div>
