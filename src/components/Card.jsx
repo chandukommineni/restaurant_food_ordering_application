@@ -149,7 +149,7 @@ const Card = () => {
                     margin: "0 0 30px",
                   }}
                 >
-                  Order is  <br /> <h4>{orderedItem}</h4>
+                  Order is  <br /> <span>{orderedItem}</span>
                 </p>
                 <button
                   className="btn"

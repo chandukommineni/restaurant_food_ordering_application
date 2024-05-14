@@ -32,7 +32,7 @@ const finishOrdering = async () => {
       console.error("Error placing order", error);
     }
   } else {
-    console.log("No data to order");
+    alert("Please Order Something ")
   }
 };
   return (
@@ -40,6 +40,7 @@ const finishOrdering = async () => {
        <center>
         <div className="my-3" onClick={finishOrdering}>
           <button className="btn btn-primary">Finish Ordering</button>
+          <p className="my-3">Wait for Some time after Clicking Finish Order</p>
         </div>
 
       {
